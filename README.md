@@ -20,7 +20,11 @@ Change firewall settings to include your IP address.
 ```bash
 openssl rand -hex 32
 ```
-Edit main.py line 23 and add the secre_key value.
+Edit main.py line 23 and add the secre_key value like as it follows:
+
+```python
+SECRET_KEY = "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7"
+```
 
 
 3) You need Docker installed to run the docker-compose command line:
