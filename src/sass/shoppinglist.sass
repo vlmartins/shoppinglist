@@ -1,0 +1,148 @@
+.todo
+    justify-content: center
+    align-items: center
+    text-align: center
+    font-family: inherit
+    button
+        border-radius: 20px
+        border: 1px solid
+        font-size: 11px
+        padding: 2px 3px
+        border-color: #6a8ffc
+        color: #1d1d1d
+        background-color: #eff3f8
+        font-weight: 1
+        &:hover
+            color: red
+
+.App1 
+    --input-color: #99a3ba
+    --input-border: #cdd9ed
+    --input-background: #fff
+    --input-placeholder: #cbd1dc
+    --input-border-focus: #275efe
+    --group-color: #99a3ba
+    --group-border: var(--input-border)
+    --group-background: #eef4ff
+    --group-color-focus: #fff
+    --group-border-focus: #275efe
+    --group-background-focus: #678efe
+    position: fixed
+    left:0
+    bottom:0
+    right:0
+    color: black
+    font: bold
+    height: 4%
+    color: black
+    min-height: 100%
+    font-family: "Mukta Malar", Arial
+    flex-direction: column
+    background: #f5f9ff
+    .form-group 
+        max-width: 360px
+        &:not(:last-child) 
+            margin-bottom: 32px
+    nav
+        background-image:  linear-gradient(90deg, #8FBCBB 0%, #88C0D0 50%, #81A1C1 75% , #5E81AC 100%) 
+
+.form-field 
+    display: block
+    width: 100%
+    padding: 8px 16px
+    line-height: 25px
+    font-size: 14px
+    font-weight: 500
+    font-family: inherit
+    border-radius: 6px
+    color: #275efe
+    border: 1px solid var(--input-border)
+    background: var(--input-background)
+    transition: border 0.3s ease
+    &::placeholder 
+        color: var(--input-placeholder)
+    
+    &:focus 
+        outline: none
+        border-color: #275efe
+    
+
+.forms2 
+    justify-content: center
+    align-items: center
+    text-align: center
+    position: center
+
+
+.form-group 
+    position: center
+    display: flex
+    width: 100%
+    & > button,
+    .form-field 
+        white-space: nowrap
+        display: block
+        &:not(:first-child):not(:last-child) 
+            border-radius: 0
+        
+        &:first-child 
+            border-radius: 6px 0 0 6px
+        
+        &:last-child 
+            border-radius: 0 6px 6px 0
+        
+        &:not(:first-child) 
+            margin-left: -1px
+    
+    .form-field:hover    
+        border-color: #646cff
+
+    .form-field 
+        position: relative
+        z-index: 1
+        flex: 1 1 auto
+        width: 1%
+        margin-top: 0
+        margin-bottom: 0
+    
+    & > button 
+        text-align: center
+        padding: 8px 12px
+        font-size: 14px
+        line-height: 25px
+        color: var(--group-color)
+        background: var(--group-background)
+        border: 1px solid var(--group-border)
+        transition: background 0.3s ease, border 0.3s ease, color 0.3s ease
+
+    &:focus-within 
+        & > button 
+            color: var(--group-color-focus)
+            background: #275efe
+            border-color: #275efe
+            box-sizing: border-box
+
+
+.footer
+    position: fixed
+    left:0
+    bottom:0
+    right:0
+    color: black
+    font: bold
+    height: 4%
+    background-image:  linear-gradient(90deg, #8FBCBB 0%, #88C0D0 50%, #81A1C1 75% , #5E81AC 100%)
+       
+
+html 
+    box-sizing: border-box
+    -webkit-font-smoothing: antialiased
+
+
+* 
+    box-sizing: inherit
+    &:before,
+    &:after 
+        box-sizing: inherit
+    
+

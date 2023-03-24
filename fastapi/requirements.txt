@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+motor
+pydantic
+python-decouple
+python-jose[cryptography] 
+passlib[bcrypt] 
+python-multipart
+datetime
