@@ -1,9 +1,9 @@
 import motor.motor_asyncio
 from model import Todo, User
 from bson.objectid import ObjectId
-from motorkey import motor_key 
+import shopconfig
 
-client = motor.motor_asyncio.AsyncIOMotorClient(motor_key)
+client = motor.motor_asyncio.AsyncIOMotorClient(shopconfig.MOTOR_KEY)
 database = client.TodoList
 collection = database.UserList
 user_collection = database.user

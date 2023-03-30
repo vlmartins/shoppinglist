@@ -16,11 +16,9 @@ from extra import user_regex
 from crypt import verify_password, get_password_hash
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from secretkey import secret
+import shopconfig
 
-
-
-SECRET_KEY = secret
+SECRET_KEY = shopconfig.SECRET_KEY
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 9999
 
