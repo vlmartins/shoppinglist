@@ -1,4 +1,4 @@
-FROM python:3.11-alpine3.17 as fast
+FROM python:3.11 as fast
 WORKDIR /
 
 COPY ./fastapi/requirements.txt ./requirements.txt
