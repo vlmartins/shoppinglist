@@ -4,13 +4,15 @@ This repository uses ReactJS to provide a frontend web application and FastAPI-M
 
 Requirements: 
 - MongoDB 
+- Docker
+
 
 If you want to run on your local machine FIRST you need an mongo DB server.
 
 For this example i suggest using Atlas - It is free for testing purposes. Don't forget to change firewall settings to include your IP address.  
 
 
-1) Copy shopconfig-sample.py to shopconfig.py
+1) Rename  /fastapi/shopconfig-sample.py to /fastapi/shopconfig.py
 
 2) Setup MongoDB in the shopconfig.py file
 
