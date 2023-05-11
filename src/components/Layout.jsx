@@ -8,7 +8,7 @@ const Layout = () => {
     return (
         <div className="Layout">
             <Outlet />
-            <About />
+            {/* <About /> */}
             <ProjectShoppingList />
         </div>
     )
