@@ -43,10 +43,8 @@ docker-compose up -d --build
 
 Pronto! Você está pronto para começar, verifique seu [localhost] (http://localhost/).
 
-
 </details>
 
-<br>
 
 # A shopping list using React FastAPI MongoDB with JWT(Json Web Tokens)
 
