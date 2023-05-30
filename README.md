@@ -3,7 +3,7 @@
 
 # Uma lista de compras usando React FastAPI MongoDB com JWT (JSON Web Tokens) pronto para rodar online em servidores AWS EC2.
 
-Antes de começar, você pode acessar essa aplicação live em http://54.233.129.141/ - Project 1. Você precisa registrar um usuário para acessar a aplicação. 
+Antes de começar, você pode acessar essa aplicação live em [http://18.230.108.52/](http://18.230.108.52/) - Project 1. Você precisa registrar um usuário para acessar a aplicação. 
 
 ## Requisitos:
 - MongoDB
@@ -48,7 +48,7 @@ Pronto! Você está pronto para começar, verifique seu [localhost] (http://loca
 
 # A shopping list using React FastAPI MongoDB with JWT(Json Web Tokens)
 
-Before we start, you can access this application live at http://54.233.129.141/ . You need to register a user to access the application.
+Before we start, you can access this application live at [http://18.230.108.52/](http://18.230.108.52/) . You need to register a user to access the application.
 
 This repository uses ReactJS to provide a frontend web application and FastAPI-MongoDB as a backend service that is ready to run on the cloud like AWS EC2.  
 
